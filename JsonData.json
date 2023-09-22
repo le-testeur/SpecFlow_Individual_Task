@@ -1,0 +1,26 @@
+{
+    "Environ": {
+        "AE_Url": "https://automationexercise.com/"
+    },
+    "NewUser_SignUp": {
+        "Name": "Automation_Tester",
+        "Email1": "testautomation",
+        "Email2": "@tst.com"
+    },
+    "Account_Info":{
+        "Password": "MyPassw0rd",
+        "Day": "10",
+        "Month": "January",
+        "Year": "2010",
+        "First name": "Automation",
+        "Last name": "Tester",
+        "Company": "My Company",
+        "Address1": "My current address",
+        "Address2": "Second line of my address",
+        "Country": "Isreal",
+        "State": "Tel Aviv",
+        "City": "Tel Aviv",
+        "Zipcode": "Tel24V",
+        "Mobile number": "01234567890"
+    }
+}
