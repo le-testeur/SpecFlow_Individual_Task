@@ -21,6 +21,9 @@ namespace SpecFlow_Individual_Task.Hooks
             options.AddArguments("--start-maximized", "--incognito");
             options.AddArgument("--disable-popup-blocking");
             options.AddExcludedArgument("enable-automation");
+            options.AddArgument("--no-Sandbox");
+            options.AddArgument("--disable-dev-shm-usage");
+            options.AddArgument("--headless");
             driver = new ChromeDriver(options);
             container.RegisterInstanceAs(driver);
         }
